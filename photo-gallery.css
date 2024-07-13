@@ -1,0 +1,36 @@
+
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 10px;
+}
+
+.description h3 {
+    margin-top: 0;
+}
+
+.description p {
+    margin-bottom: 0;
+}

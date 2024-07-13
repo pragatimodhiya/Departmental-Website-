@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo-galleary</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="photo-gallery.css">
+</head>
+<body>
+<header>
+<div class="logo">
+    <div>
+        <img src="/logo.png" alt="" >
+    </div>
+    
+</div>
+<hr>
+    <div class="banner">
+        <ul class="banner-text">
+            
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="photo-galleary.html">Photo Gallery</a></li>
+                <li><a href="SUBJCT.html">SUBJCT</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+            
+              
+          
+        </ul>
+        
+    </div>
+
+</div>
+<hr>
+</header>
+<div class="gallery">
+    <div class="gallery-group">
+        <div class="card">
+            <img src="/bulding.jpeg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/bulding2.jpeg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/kaizen-2023-9D4piVBs9Q.jpg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/global-alumni-convention-department-level-interaction-january-2023-yUZpIufJIm.jpg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/sahyog-2022-industrial-academia-collaboration-meet-MyuD5sheox.jpg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/innovation-in-pcb-design-using-kicad-7XkdVCXnkg.jpg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/career-opportunities-in-indian-air-force-seminar-by-experts-from-15-base-repair-depot-brdvadsar-ahmedabad-12-9-2019thursday11-am-1-pm-S6kGLYyowU.jpeg" alt="Image 1">
+            <div class="description">
+                <h3>Photo 1</h3>
+                <p>Description of Photo 1</p>
+            </div>
+        </div>
+
+       
+    </div>
+</div>
+<footer>
+    <div class="last-kaam">
+        
+        <div style="margin-right: 2%; ">
+            <a href="#">Menu</a>
+            <hr>
+            <ul>
+                <li>HOME</li>
+                 <li>About Us</li>
+                <li>Faculty</li>
+                <li>Facility</li>
+                <li>Photo Gallery</li>
+                <li>SUBJCT</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+        <div style="margin-right: 2%;">
+            <a href="#">Useful Links</a>
+            <hr>
+            <ul>
+                <li>Testemonial</li>
+                <li>FAQ</li>
+                <li>Community</li>
+                <li>campus Photo    </li>
+                <li>TENDER NOTICE</li>
+            </ul>
+        </div>
+        <div style="margin-right: 2%;">
+            <a href="#">Contact Us</a>
+            <hr>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> <a href="#">EC department LDCE</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+0034374832445322">0034 37483 2445 322</a></p>
+                <p><i class="far fa-envelope"></i> <a href="mailto:ec_hod@ldce.ac.in">ec_hod@ldce.ac.in</a></p>
+            </div> 
+            
+        </div>
+    </div>
+    <div class="paav">
+        <p>&copy; 2024 LDCE. All rights Reserved | Design by Pragati MOdhiya</p>
+    </div>
+
+</footer>
+<script>
+    // Get all card elements
+const cards = document.querySelectorAll('.card');
+
+// Add event listeners to each card
+cards.forEach(card => {
+    card.addEventListener('mouseover', () => {
+        card.style.transform = 'scale(1.1)'; // Increase size on mouseover
+        card.style.transition = 'transform 0.5s'; // Add transition effect
+    });
+    
+    card.addEventListener('mouseout', () => {
+        card.style.transform = 'scale(1)'; // Restore original size on mouseout
+    });
+});
+
+</script>

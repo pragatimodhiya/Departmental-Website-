@@ -1,0 +1,248 @@
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo h1{
+    margin-right: 15%;
+}
+.banner {
+    background-color: #176aae;
+    display: flex;
+
+  
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+.banner ul {
+    list-style: none;
+    
+    
+}
+.banner li a {
+  text-decoration: none; /* Remove default underline on links */
+  color: inherit; 
+}
+.banner li{
+    margin: 10px ;
+    border: 1px solid rgb(248, 243, 243);
+    padding-top: 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+   
+
+}
+
+.banner li:hover{
+
+    background-color: rgb(236, 124, 124);
+    color: rgb(249, 249, 249);
+}
+.banner-text {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.weclome{
+   text-align: center;
+   margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    width: 100%; 
+    margin: 2rem auto; 
+    background-image: url(/circuit-board-5936930.jpg);
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 0 1rem 1rem 0; 
+    text-align: center;
+    margin: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    margin-bottom: 1rem;
+}
+
+.card a {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.card a:hover{
+    background-color: rgb(94, 12, 177);
+    color: white;
+}
+
+.faculty {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.faculty h2 {
+  margin-bottom: 1rem;
+}
+
+.faculty-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%; 
+  margin: 0 auto;
+}
+
+.faculty-card {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%; 
+  height: 10%;
+}
+
+.faculty-card img {
+  width: 100%;
+  border-radius: 70%; 
+  margin-bottom: 0.5rem;
+}
+
+.faculty-card h3,
+.faculty-card p {
+  margin-bottom: 0.5rem;
+}
+
+.faculty-card a {
+  background-color: #07ffa8;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.faculty-card a:hover{
+    background-color:rgb(237, 20, 20);
+    color: white;
+}
+
+.facilities {
+    text-align: center;
+    padding: 2rem 0;
+    background-image: url(/circuit-board-5936930.jpg);
+  }
+  
+  .facilities h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem; 
+    color: white;
+  }
+  
+  .facilities-list {
+    list-style: circle; 
+    padding: 0;
+    margin: 0;
+  }
+  .facilities ul{
+    list-style: none;
+  }
+  .facilities-list li {
+
+    margin-right: 1rem;
+    font-size: 1rem; 
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #c5dcef;
+  }
+  
+  .facilities-list li:last-child {
+    margin-right: 0; 
+  }
+  .facilities li:hover {
+    background-color: rgb(237, 20, 20);
+    color: white;
+    transform: translateY(-5px); /* Add slight upwards movement */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .last-kaam {
+    display: flex;
+  }
+  
+  footer {
+    background-color: #021c44;
+    margin-left: 0px;
+    padding: 0%;
+    border: 2px solid white;
+    border-radius: 0px;
+    color: white;
+  }
+
+  .last-kaam a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .last-kaam ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .last-kaam li {
+    margin-bottom: 10px;
+  }
+  
+ 
+  .paav {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .mission ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-us {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  
